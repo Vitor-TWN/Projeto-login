@@ -30,14 +30,23 @@
         width: 930px;
     }
 
-    #imagem {
-        float: left;
+    section#login > #imagem {
+        float: right;
         width: 50%;
         height: 100%;
     }
 
-    #formulario {
-        float: right;
+    section#login > #formulario {
+        float: left;
         width: 50%;
     }
+
+    #formulario > h1 {
+        font-size: 2em;
+    }
+
+    #formulario > p {
+        font-size: 1.1em;
+    }
+    
 }
